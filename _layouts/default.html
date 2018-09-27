@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="{{ site.keywords }}">
+	<meta name="description" content="{{ site.description }}">
+	<meta property="og:title" content="{{ site.name }}">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{{ site.url }}">
+	<meta property="og:image" content="{{ "/images/logo-dark.jpg" | prepend: site.url }}">
+	<meta property="og:description" content="{{ site.description }}">
+	<title>{{ site.name }}</title>
+	<link href="{{ "/css/bootstrap.min.css" | prepend: site.url }}" rel="stylesheet">
+	<link href="{{ "/css/template.css" | prepend: site.url }}" rel="stylesheet">
+</head>
+<body>
+
+	{% include analytics.html %}
+	
+	{{ content }}
+	
+</body>
+</html>
