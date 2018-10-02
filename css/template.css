@@ -14,6 +14,17 @@ header .event-date { margin-top: 5px; margin-bottom: 20px; }
 #counter .mins::before { content: 'минут'; }
 #counter .secs::before { content: 'секунд'; }
 
+footer { background-color: #130419; padding-top: 50px; position: relative; color: #fff; }
+footer a,
+footer a:hover { color: #ae9b76; }
+footer .phones { margin: 50px 0; }
+footer .phones h2,
+footer .email h2 { margin: 0; }
+footer .phones h1,
+footer .email h1 { margin: 5px; }
+footer .email { margin-bottom: 50px; }
+footer .info { color: #606060; margin-bottom: 50px; font-size: 18px; }
+
 @media (max-width: 420px) {
 	header .logo { width: 100%; }
 	#counter { font-size: 4em; }
