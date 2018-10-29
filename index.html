@@ -7,7 +7,7 @@ layout: default
 		<div class="row">
 			<div class="col-xs-16 text-center">
 				<img src="{{ "/images/logo.png" | prepend: site.url }}" alt="Фитнес-конвенция «Мудрость тела»" class="logo" />
-				<h2 class="event-date">09/12/2018, Братск</h2>
+				<h2 class="event-date">8-9 декабря 2018, Братск, <br>спорткомплекс «Таёжный»</h2>
 				<div id="counter"></div>
 				<a href="#overview" class="scroll"></a>
 			</div>
@@ -15,10 +15,209 @@ layout: default
 	</div>
 </header>
 
+<div class="section reg">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-16 text-center">
+				<h1 class="title" id="reg">Регистрация</h1>
+				<p>Вы можете оплатить участие в фитнес-конвенции «Мудрость тела» с карт Visa, MasterCard, МИР, нажав одну из кнопок ниже.<br>Для оплаты Вы будете перенаправлены на сайт платёжной системы Яндекс Деньги.</p>
+				<p><strong>Выберите вариант участия:</strong></p>
+				<form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+				 <input type="hidden" name="receiver" value="410014655968128">
+				 <input type="hidden" name="quickpay-form" value="small">
+				 <input type="hidden" name="targets" value="VI фитнес-конвенция «Мудрость тела», 8 и 9 декабря">
+				 <input type="hidden" name="paymentType" value="AC">
+				 <input type="hidden" name="sum" value="1300.00" data-type="number">
+				 <input type="hidden" name="formcomment" value="VI фитнес-конвенция «Мудрость тела», 8 и 9 декабря">
+				 <input type="hidden" name="short-dest" value="VI фитнес-конвенция «Мудрость тела», 8 и 9 декабря">
+				 <input type="hidden" name="need-fio" value="true">
+				 <input type="hidden" name="need-phone" value="true">
+				 <button type="submit">08.12 + 09.12 = 1300₽</button>
+				</form>
+				
+				<form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+				 <input type="hidden" name="receiver" value="410014655968128">
+				 <input type="hidden" name="quickpay-form" value="small">
+				 <input type="hidden" name="targets" value="VI фитнес-конвенция «Мудрость тела», 8 декабря, без семинара">
+				 <input type="hidden" name="paymentType" value="AC">
+				 <input type="hidden" name="sum" value="500.00" data-type="number">
+				 <input type="hidden" name="formcomment" value="VI фитнес-конвенция «Мудрость тела», 8 декабря, без семинара">
+				 <input type="hidden" name="short-dest" value="VI фитнес-конвенция «Мудрость тела», 8 декабря, без семинара">
+				 <input type="hidden" name="need-fio" value="true">
+				 <input type="hidden" name="need-phone" value="true">
+				 <button type="submit">08.12 <small>(без семинара по функциональному многоборью)</small> = 500₽</button>
+				</form>
+				
+				<form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+				 <input type="hidden" name="receiver" value="410014655968128">
+				 <input type="hidden" name="quickpay-form" value="small">
+				 <input type="hidden" name="targets" value="VI фитнес-конвенция «Мудрость тела», 8 декабря">
+				 <input type="hidden" name="paymentType" value="AC">
+				 <input type="hidden" name="sum" value="1000.00" data-type="number">
+				 <input type="hidden" name="formcomment" value="VI фитнес-конвенция «Мудрость тела», 8 декабря">
+				 <input type="hidden" name="short-dest" value="VI фитнес-конвенция «Мудрость тела», 8 декабря">
+				 <input type="hidden" name="need-fio" value="true">
+				 <input type="hidden" name="need-phone" value="true">
+				 <button type="submit">08.12 <small>(полностью)</small> = 1000₽</button>
+				</form>
+				
+				<form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+				 <input type="hidden" name="receiver" value="410014655968128">
+				 <input type="hidden" name="quickpay-form" value="small">
+				 <input type="hidden" name="targets" value="VI фитнес-конвенция «Мудрость тела», 9 декабря">
+				 <input type="hidden" name="paymentType" value="AC">
+				 <input type="hidden" name="sum" value="1000.00" data-type="number">
+				 <input type="hidden" name="formcomment" value="VI фитнес-конвенция «Мудрость тела», 9 декабря">
+				 <input type="hidden" name="short-dest" value="VI фитнес-конвенция «Мудрость тела», 9 декабря">
+				 <input type="hidden" name="need-fio" value="true">
+				 <input type="hidden" name="need-phone" value="true">
+				 <button type="submit">09.12 = 1000₽</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section timetable-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-16">
+				<h1 class="title text-center">Расписание</h1>
+				<div class="table-legend">
+					<ul>
+						<li class="softfitness">мягкий фитнес</li>
+						<li class="functional">функциональный тренинг</li>
+						<li class="force">силовой</li>
+						<li class="dance">танцевальные классы</li>
+						<li class="cardio">кардио классы</li>
+					</ul>
+				</div>
+				<div class="event">
+					<div class="col-lg-6">
+						<h2 class="event-date"><span>8 декабря</span></h2>
+						<div class="timetable table-responsive">
+							<table class="table">
+								<thead>
+									<th>&nbsp;</th>
+									<th>Фитнес-зал</th>
+								</thead>
+								<tbody>
+									<tr>
+										<td><div class="time">10<sup>00</sup></div></td>
+										<td><p class="dance">Hip-hop</p>Башунова Полина</td>
+									</tr>
+									<tr>
+										<td><div class="time">11<sup>00</sup></div></td>
+										<td><p class="dance">Bollywood dance</p>Васильева Евгения</td>
+									</tr>
+									<tr>
+										<td><div class="time">12<sup>00</sup></div></td>
+										<td><p class="functional">Functional</p>Авдонина Ксения</td>
+									</tr>
+									<tr>
+										<td><div class="time">13<sup>00</sup></div></td>
+										<td><p class="dance">Dance Mix</p>Аракалян Лилит</td>
+									</tr>
+									<tr>
+										<td><div class="time">14<sup>00</sup></div></td>
+										<td><p class="dance">Dance Aerobics</p>Орлова Анастасия</td>
+									</tr>
+									<tr>
+										<td><div class="time">15<sup>00</sup></div></td>
+										<td><p class="softfitness">Capoeira</p>Савиных Анна</td>
+									</tr>
+									<tr>
+										<td><div class="time">16<sup>00</sup></div></td>
+										<td><p class="default">Семинар по функциональному многоборью</p>Сова Оксана</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="col-lg-10">
+						<h2 class="event-date"><span>9 декабря</span></h2>
+						<p class="visible-xs">таблица листается вправо</p>
+						<div class="timetable table-responsive">
+							<table class="table">
+								<thead>
+									<th>&nbsp;</th>
+									<th width="30%">Игровой зал</th>
+									<th width="30%">Фитнес-зал</th>
+									<th width="30%">Игровой зал 2</th>
+								</thead>
+								<tbody>
+									<tr>
+										<td><div class="time">10<sup>00</sup></div></td>
+										<td colspan="3"><p class="default">Регистрация участников</p></td>
+									</tr>
+									<tr>
+										<td><div class="time">11<sup>00</sup></div></td>
+										<td><p class="softfitness">PortDeBras</p>Авдонина Ксения</td>
+										<td><p class="dance">Hip-hop</p>Снятинский Денис</td>
+										<td rowspan="5"><p class="default">Соревнования по функциональному многоборью для мужчин и женщин</p></td>
+									</tr>
+									<tr>
+										<td><div class="time">12<sup>00</sup></div></td>
+										<td><p class="functional">Interval Training</p>Журавлёва Катя</td>
+										<td><p class="softfitness">Йогатерапия</p>Фаррахова Анастасия</td>
+									</tr>
+									<tr>
+										<td><div class="time">13<sup>00</sup></div></td>
+										<td><p class="cardio">Freestyle Aerobics</p>Климов Тарас</td>
+										<td><p class="dance">Choreo</p>Захарова Анастасия</td>
+									</tr>
+									<tr>
+										<td><div class="time">14<sup>00</sup></div></td>
+										<td><p class="dance">Dancehall</p>Снятинский Денис</td>
+										<td><p class="cardio">Step Fit</p>Журавлёва Катя</td>
+									</tr>
+									<tr>
+										<td><div class="time">15<sup>00</sup></div></td>
+										<td><p class="functional">Bodyweight</p>Климов Тарас</td>
+										<td><p class="dance">Vogue</p>Захарова Настя</td>
+									</tr>
+									<tr>
+										<td><div class="time">16<sup>00</sup></div></td>
+										<td><p class="softfitness">Postural Training</p>Журавлёва Катя</td>
+										<td><p class="default">Лекция по питанию</p>Сова Оксана</td>
+										<td><p class="default">Награждение</p></td>
+									</tr>
+									<tr>
+										<td><div class="time">17<sup>00</sup></div></td>
+										<td><p class="softfitness">Спирально-волновая гимнастика</p>Фаррахова Асия</td>
+										<td colspan="2"><p class="cardio">Step</p>Климов Тарас</td>
+									</tr>
+									<tr>
+										<td><div class="time">18<sup>00</sup></div></td>
+										<td colspan="3"><p class="default">Закрытие, вручение сертификатов</p></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section video">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-16">
+				<div class="video-block text-center">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/U9druLdVwfc" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-16 text-center">
+				<h2 class="slogan">Здоровье дороже золота. Выбери свой фитнес</h2>
 				<h1>Организатор Ксения Авдонина</h1>
 				<div class="phones">
 					<h2 class="title">справки по телефонам</h2>
