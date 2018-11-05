@@ -25,7 +25,7 @@ h1.title { text-transform: uppercase; font-size: 50px; margin: 50px 0; }
 .reg .bank-icon.visa { background-image: url('../images/icon-visa.svg'); }
 .reg .bank-icon.mir { background-image: url('../images/icon-mir.svg'); }
 .reg form { display: block; margin-bottom: 10px; }
-.reg button { border: 2px solid #61583a; background-image: linear-gradient(to bottom, #e8d195, #908156); border-radius: 10px; color: #000; font-weight: bold; padding: 10px; max-width: 300px; width: 300px; }
+.reg button { border: 2px solid #61583a; background-image: linear-gradient(to bottom, #e8d195, #908156); border-radius: 10px; color: #000; font-weight: bold; padding: 10px; max-width: 290px; width: 290px; }
 .reg button small { font-weight: normal; }
 
 .timetable-wrapper { background-color: #130419; color: #fff; font-size: 16px; }
@@ -69,4 +69,5 @@ footer .slogan { color: #ae9b76; }
 	#counter { font-size: 4em; }
 	.table-legend ul li { display: block; }
 	.video.section iframe { width: 100%; }
+	h1.title { font-size: 44px; }
 }
