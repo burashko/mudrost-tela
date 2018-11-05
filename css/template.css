@@ -19,8 +19,13 @@ h1.title { text-transform: uppercase; font-size: 50px; margin: 50px 0; }
 .reg { padding-bottom: 50px; background: #f0f0f0; font-size: 18px; }
 .reg .price { font-weight: bold; }
 .reg .price .highlight { color: #ae9b76; }
+.reg .bank-icon { width: 33px; height: 26px; background-repeat: no-repeat; background-size: contain; background-position: center center; display: inline-block; }
+.reg .bank-icon.mastercard { background-image: url('../images/icon-mastercard.svg'); }
+.reg .bank-icon.maestro { background-image: url('../images/icon-maestro.svg'); }
+.reg .bank-icon.visa { background-image: url('../images/icon-visa.svg'); }
+.reg .bank-icon.mir { background-image: url('../images/icon-mir.svg'); }
 .reg form { display: block; margin-bottom: 10px; }
-.reg button { border: 2px solid #1e0525; background: #32083e; border-radius: 2px; color: #fff; font-weight: bold; }
+.reg button { border: 2px solid #61583a; background-image: linear-gradient(to bottom, #e8d195, #908156); border-radius: 10px; color: #000; font-weight: bold; padding: 10px; max-width: 300px; width: 300px; }
 .reg button small { font-weight: normal; }
 
 .timetable-wrapper { background-color: #130419; color: #fff; font-size: 16px; }
