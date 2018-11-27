@@ -52,6 +52,9 @@ h1.title { text-transform: uppercase; font-size: 50px; margin: 50px 0; }
 .presenters .item::before, .presenters .item::after { content: " "; display: table; }
 .presenters .item::after { clear: both; }
 
+.partners { margin-bottom: 100px; }
+.partners img { margin-bottom: 30px; margin-right: 20px; }
+
 .video.section { margin: 50px 0; }
 
 footer { background-color: #130419; padding-top: 50px; position: relative; color: #fff; }
